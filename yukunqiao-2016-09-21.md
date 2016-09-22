@@ -58,7 +58,7 @@
     
     接口中的变量都是静态常量
     
-![port](daily/images/port.jpg)
+![port](https://github.com/yukunqiao/daily/blob/master/images/port.jpg)
 
 (8)public class PrintMachine {
 
@@ -121,7 +121,7 @@
   
     存放基本类型(8种：byte/short/int/long/float/double/boolean/char)的数据和对象的引用
     
-![DataType](daily/images/DataType.jpg)
+![DataType](https://github.com/yukunqiao/daily/blob/master/images/DataType.jpg)
     
     先进后出
     
@@ -152,3 +152,7 @@
 |github写md文件 |
 
   * (2)github中，所有符号、数字应为英文状态，显示换行内容，应用Enter键加空行
+
+*(3) giyhub中插入的图片不显示
+
+	用(https://github.com/yukunqiao/daily/blob/master/images/DataType.jpg)替换(daily/images/DataType.jpg)
