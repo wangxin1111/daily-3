@@ -119,7 +119,7 @@
     
   (11) 栈stack
   
-    存放基本类型(8种：byte/short/int/long/float/double/boolean/String)的数据和对象的引用
+    存放基本类型(8种：byte/short/int/long/float/double/boolean/char)的数据和对象的引用
     
 ![DataType](daily/images/DataType.jpg)
     
