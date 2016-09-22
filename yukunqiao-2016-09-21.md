@@ -59,8 +59,8 @@
     接口中的变量都是静态常量
     
 ![port](daily/images/port.jpg)
-    
-  (8)public class PrintMachine {
+
+(8)public class PrintMachine {
 
     	public void print(InBox box, InPaper paper) {
     	
