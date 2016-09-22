@@ -121,6 +121,8 @@
   
     存放基本类型(8种：byte/short/int/long/float/double/boolean/String)的数据和对象的引用
     
+![DataType](daily/images/DataType.jpg)
+    
     先进后出
     
     当在一段代码块定义一个变量时，Java就在栈中为这个变量分配内存空间，
