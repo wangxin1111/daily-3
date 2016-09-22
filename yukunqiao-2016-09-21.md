@@ -156,3 +156,7 @@
 *(3) giyhub中插入的图片不显示
 
 	用(https://github.com/yukunqiao/daily/blob/master/images/DataType.jpg)替换(daily/images/DataType.jpg)
+	
+	或
+	
+	用(images/DataType.jpg)
