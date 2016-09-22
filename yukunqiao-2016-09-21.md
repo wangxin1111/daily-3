@@ -58,7 +58,7 @@
     
     接口中的变量都是静态常量
     
-	![port](daily/images/port.jpg)
+![port](daily/images/port.jpg)
     
   (8)public class PrintMachine {
 
