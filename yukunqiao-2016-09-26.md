@@ -18,11 +18,30 @@
 
 2.工作成果
 
- * 
+ import java.lang.Math;
+ 
+   public class ApiMath {
+   
+      public static void main(String[] args){  
+      
+         double i = Math.E;
+         double j = Math.PI;  
+         System.out.println("i="+i+",j="+j);      
+         double index1 = Math.abs(3.0);      
+         float index2 = Math.abs(3);      
+         int index3 = Math.abs(3);      
+         long index4 = Math.abs(3);      
+         System.out.println("index1="+index1+",index2="+index2+",index3="+index3+",index4="+index4);  
+         double index = Math.acos(1.1);//参数为NaN或者绝对值大于1，结果为NaN
+         double index2 = Math.acos(0.1);
+         System.out.println("index="+index+",index2="+index2);
+  }
+  
+ }
   
 3.未完成的工作
 
- * Math类，Random类，Arrays类，System类，Date类，Calendar类，StringBuffer类
+ * Random类，Arrays类，System类，Date类，Calendar类，StringBuffer类
  的API练习
  * 8种基本数据类型对应类的API练习
   
