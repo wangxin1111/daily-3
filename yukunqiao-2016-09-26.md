@@ -79,6 +79,11 @@
          
          int index1 = Math.getExponent(0);
          int index2 = Math.getExponent(3);
+         
+         double index = Math.hypot(1.1,4.4);//返回 sqrt(x2 +y2)
+         
+         double index = Math.IEEEremainder(1.02,1.01);// f1 - f2 × n
+         
   }
   
  }
@@ -91,7 +96,7 @@
   
 4.未完成的原因
 
- * 晚上有事需要解决，导致没有做完该练习，将会在十一之前及期间参照API练习。
+ * 
   
 5.遇到的问题及解决方法
 
