@@ -12,7 +12,7 @@
 
 * Boolean
 
-  * Boolean是基本数据类型的包装类，Boolean类在对象中包装了一个基本类型boolean的值。
+  * Boolean是基本数据类型的包装类，Boolean类在对象中包装了一个基本类型boolean的值。数据类型之间转换。
 
 * Byte
 
