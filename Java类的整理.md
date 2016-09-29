@@ -179,5 +179,4 @@
 
 * Void
 
-  * 
-    Void 类是一个不可实例化的占位符类，它持有对表示 Java 关键字 void 的 Class 对象的引用。 
+  * Void 类是一个不可实例化的占位符类，它持有对表示 Java 关键字 void 的 Class 对象的引用。 
