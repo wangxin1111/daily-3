@@ -1,15 +1,17 @@
 # 2016-09-22工作日报
 ====================
 
-1.已完成的工作内容
+* String常量，它的值是在常量池中的。
+* 比较类里面的数值是否相等时，用equals()方法；当测试两个包装类的引用是否指向同一个对象时，用==.
+* String不属于8种基本数据类型，String是一个对象。因为对象的默认值是null，所以String的默认值也是null；
+* new String()和new String(”")都是申明一个新的空字符串，是空串不是null；
+* ​
+* 1.已完成的工作内容
+  * (1)String 构造方法
+  * (2)String 方法前半部分
+* 2.工作成果
 
- *(1)String 构造方法
- 
- (2)String 方法前半部分
-
-2.工作成果
-
- *public class StringTest {
+ public class StringTest {
 
     public static void main(String [] arge) throws UnsupportedEncodingException {
 
@@ -18,32 +20,32 @@
         String original = "String构造方法摘要";
         String test2 = new String(original);
         System.out.println(test2);
-
+    
         char[] value = {'y','u','k','u','n','q','i','a','o'};
         String test3 = new String(value);
         System.out.println(test3);
-
+    
         String test4 = new String(value,3,3);
           //截取指定位置和长度的字符(char)
         System.out.println(test4);
-
+    
         int[] codePoints = {66,67,68,69,70,65};
         String test5 = new String(codePoints,2,3);
           //将该子数组(int)指定位置和长度的的内容转换为 char
         System.out.println(test5);
-
+    
         byte[] bytes =  {66,67,68,69,70,65};
         String  test6 = new String(bytes);
           //ASCII(byte)
         System.out.println(test6);
-
+    
         String test7 = new String(bytes,"gb2312");
         System.out.println(test7);
-
+    
         String test8 = new String(bytes,1,3);
           //截取指定位置和长度的字符(byte)
         System.out.println(test8);
-
+    
         String test9 = null;
         try {
             test9 = new String(bytes,1,3,"UTF-8");
@@ -51,10 +53,10 @@
             e.printStackTrace();
         }
         System.out.println(test9);
-
+    
         String test10 = new String(bytes,1,3,"utf-8");
         System.out.println(test10);
-
+    
         StringBuffer buffer = new StringBuffer();
         buffer.append("y");
         buffer.append("k");
@@ -62,7 +64,7 @@
         String test11 = new String(buffer);
           //连接字符
         System.out.println(test11);
-
+    
         StringBuilder builder = new StringBuilder();
         builder.append("y");
         builder.append("k");
@@ -70,8 +72,8 @@
         String test12 = new String(builder);
           //连接字符
         System.out.println(test12);
-        
-        
+
+
         String str = "这是String中的构造方法";
         String str1 = "asdfghj";
         String str2 = "jhgfdsa";
@@ -110,30 +112,30 @@
         
     }
   }
-3.未完成的工作
 
- *(1)String  箭头处往下
- 
+* 3.未完成的工作
+  * (1)String  箭头处往下
+
  ![unfinish](images/unfinish.jpg)
- 
- (2)菜鸟教程——java  代码
-  
-4.未完成的原因
 
- *
-  
-5.遇到的问题及解决方法
+*  	(2)菜鸟教程——java  代码
 
- * (1)charset
- 
-    String test9 = new String(bytes,1,3,"UTF-8")//"Alt"+"Enter"
-    
-  (2)StringBuffer和StringBuilder的区别
-  
-  (3)字典排序
-  
-  (4)//public boolean equals(Object anObject)
-            
+* 4.未完成的原因
+
+* ​
+
+* 5.遇到的问题及解决方法
+
+  * (1)charset
+
+   String test9 = new String(bytes,1,3,"UTF-8")//"Alt"+"Enter"
+
+  * (2)StringBuffer和StringBuilder的区别
+  * (3)字典排序
+  * (4)//public boolean equals(Object anObject)
+
+​            
+
             // 将此字符串与指定的对象比较。
             //当且仅当该参数不为 null，并且是与此对象表示相同字符序列的 String 对象时，结果才为 true。
     
